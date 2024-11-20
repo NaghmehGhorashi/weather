@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="theme">
+        <div data-theme="themeday"><img class="daypic" src="./img/clear.png" alt=""></div>
+        <div data-theme="themenight"><img class="nightpic" src="./img/pngtree-3d-moon-and-star-clipart-png-image_6566432.png" alt=""></div>
+    </div>
+
+    <div class="card">
+        <div class="search">
+            <div class="searchbox">
+                <button class="searchinput"> <img src="./img/search.png" alt=""></button>
+                <input type="text" class="inputbtn" placeholder="Enter name of the city">
+            </div>
+        </div>
+
+        <div class="location-not-found">
+            <h1>City not found</h1>
+        </div>
+
+        <div class="weather">
+            <img src="./img/clear.png" alt="" class="weather-img">
+            <h1 class="temp">25°C</h1>
+            <p class="city">Tehran</p>
+            <div class="detail">
+                <div class="col">
+                    <img src="./img/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">32%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./img/wind.png" alt="">
+                    <div>
+                        <p class="wind">30.0 km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
